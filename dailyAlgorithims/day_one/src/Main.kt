@@ -14,7 +14,7 @@ fun solution(message: String, K: Int): String {
     if (message.length < K) {
         return message
     }
-    if(message.length > K && message.get(K) == ' ')
+    if(message.length > K && message[K] == ' ')
         return message.substring(0, K)
     while (i > 0) {
         if (message.get(i) == ' ') {
