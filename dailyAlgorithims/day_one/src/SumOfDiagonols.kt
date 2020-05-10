@@ -26,7 +26,7 @@ fun sumOfDiagonals(arr: Array<IntArray>): Int {
     var k = 0
     var l = arr.size - 1 //right to left column counter
 
-    while (rows >= 0 && columns >= 0 && rows >+ 0 && l >= 0) {
+    while (rows >= 0 && columns >= 0 && rows >= 0 && l >= 0) {
 
         leftToRight += arr[i][j] //add the values at the position
         rightToLeft += arr[k][l] //add the values at the position
